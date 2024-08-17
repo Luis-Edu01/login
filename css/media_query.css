@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+            /*Telas Médias*/
+@media screen and (min-width: 768px) and (max-width:998px) {
+    body{
+        background: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section#login{
+        width: 80vw;
+        height: 50vh;
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 65%;
+    }
+}
+            /*Telas Grandes*/
+@media screen and (min-width:999px) {
+    body{
+        background: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section#login{
+        width: 80vw;
+        height: 50vh;
+    }
+    section#login > div#imagem{
+        float: right;
+        width: 35%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: left;
+        width: 65%;
+    }
+}
