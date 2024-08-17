@@ -39,7 +39,7 @@ section#login{
 }
 section#login > div#imagem{
     display: block;
-    background: #5f2c82 url(../imagens/login.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/login2.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: 200px;
